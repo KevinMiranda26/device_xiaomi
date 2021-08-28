@@ -8,7 +8,8 @@ git clone https://gitlab.com/FabricioSC123/firmware_xiaomi_surya.git firmware/xi
 git clone https://github.com/FabricioSC123/vendor_PocoParts.git vendor/PocoParts
 #VendorSupport
 git clone https://github.com/FabricioSC123/android_vendor_support.git vendor/support
-
+# fix error pixel kernel
+rm -rf hardware/google/pixel/kernel_headers/Android.bp
 # Proton
 git clone https://github.com/kdrag0n/proton-clang prebuilts/clang/host/linux-x86/clang-13 --depth=1
 touch prebuilts/clang/host/linux-x86/clang-13/AndroidVersion.txt
